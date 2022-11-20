@@ -48,20 +48,23 @@ func ValidateURL(url string) error {
 							if string(vv) == "" {
 								return errors.New("invalid url")
 							}
+
+							// send a request to the url provided to confirm if valid or not
+							valid, _, err := request.NewRequest("GET", url, "")
+							if err != nil {
+								return errors.New("request url invalid")
+							}
+							fmt.Printf("This is the request url response: %v\n", string(valid))
+							// return response
+
+							return nil
+
 						}
 					}
 				}
 			}
 		}
 	}
-
-	//send a request to the url provided to confirm if valid or not
-	valid, _, err := request.NewRequest("GET", url, "")
-	if err != nil {
-		return errors.New("request url invalid")
-	}
-	fmt.Printf("This is the request url response: %v\n", string(valid))
-	// return response
 
 	return nil
 }
