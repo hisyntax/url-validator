@@ -9,10 +9,12 @@ import (
 	"github.com/hisyntax/domain/request"
 )
 
+var Token string
+
 func getTld() ([]string, error) {
 	method := "GET"
 	requestUrl := "https://tld1.p.rapidapi.com/GetTlds"
-	token := "2bd0a67b11msh806b3bf797619bap1d4a9cjsn231f72cf61ea"
+	token := Token
 	tldArr, _, err := request.NewRequest(method, requestUrl, token)
 	if err != nil {
 		return nil, err
