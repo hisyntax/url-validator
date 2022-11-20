@@ -1,3 +1,3 @@
-module github.com/hisyntax/url-validator
+module github.com/hisyntax/domain
 
 go 1.19

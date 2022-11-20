@@ -306,8 +306,31 @@ var Tlds = []TldObj{
 			{Tld: "hu.net", Type: "gTLD"}, {Tld: "hx", Type: "handshake"},
 		},
 	},
-}
-
-func Validate() {
-
+	{AlphaOrder: "i",
+		Tld: []Tdl{
+			{Tld: "i1", Type: "handshake"}, {Tld: "ib", Type: "handshake"},
+			{Tld: "ibn", Type: "handshake"}, {Tld: "icu", Type: "gTLD"},
+			{Tld: "id", Type: "ccTLD"}, {Tld: "ieh", Type: "handshake"},
+			{Tld: "ifv", Type: "handshake"}, {Tld: "ih", Type: "handshake"},
+			{Tld: "ik", Type: "handshake"}, {Tld: "ill", Type: "handshake"},
+			{Tld: "iloveu", Type: "handshake"}, {Tld: "immo", Type: "gTLD"},
+			{Tld: "immobilien", Type: "gTLD"}, {Tld: "in", Type: "ccTLD"},
+			{Tld: "in.net", Type: "gTLD"}, {Tld: "inc", Type: "gTLD"},
+			{Tld: "income", Type: "handshake"}, {Tld: "industries", Type: "gTLD"},
+			{Tld: "influencer", Type: "handshake"}, {Tld: "info", Type: "gTLD"},
+			{Tld: "information", Type: "handshake"}, {Tld: "inh", Type: "handshake"},
+			{Tld: "ink", Type: "gTLD"}, {Tld: "innovator", Type: "handshake"},
+			{Tld: "institute", Type: "gTLD"}, {Tld: "insure", Type: "gTLD"},
+			{Tld: "interest", Type: "handshake"}, {Tld: "international", Type: "gTLD"},
+			{Tld: "intro", Type: "handshake"}, {Tld: "investments", Type: "gTLD"},
+			{Tld: "iny", Type: "handshake"}, {Tld: "io", Type: "ccTLD"},
+			{Tld: "ioi", Type: "handshake"}, {Tld: "ioo", Type: "handshake"},
+			{Tld: "irish", Type: "gTLD"}, {Tld: "is", Type: "ccTLD"},
+			{Tld: "island", Type: "handshake"}, {Tld: "ism", Type: "handshake"},
+			{Tld: "isthefuture", Type: "handshake"}, {Tld: "italy", Type: "handshake"},
+			{Tld: "house", Type: "gTLD"}, {Tld: "how", Type: "gTLD"},
+			{Tld: "hpp", Type: "handshake"}, {Tld: "hsu", Type: "handshake"},
+			{Tld: "hu.net", Type: "gTLD"}, {Tld: "hx", Type: "handshake"},
+		},
+	},
 }

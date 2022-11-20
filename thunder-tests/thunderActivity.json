@@ -1,0 +1,103 @@
+[
+  {
+    "_id": "00f67ce7-d51c-43be-b522-8d826f099c95",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://www.iana.org/domains/root/db",
+    "url": "http://www.iana.org/domains/root/db",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-20T13:01:04.865Z",
+    "modified": "2022-11-20T13:01:04.865Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f3043cb3-678d-42cb-a2a5-26adbeebf7e1",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-20T13:01:25.810Z",
+    "modified": "2022-11-20T13:01:25.810Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a5984e35-3528-4e5c-8263-3bb6d79bc6d2",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://api.dnsimple.com/v2/tlds",
+    "url": "https://api.dnsimple.com/v2/tlds",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-20T13:09:57.417Z",
+    "modified": "2022-11-20T13:09:57.417Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer PDfKhILFFwO2F4O6vAR680ci4Ul7Ni2q"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "68d4476a-37cd-4e1e-8219-9b400e219a1f",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://tld1.p.rapidapi.com/GetTlds",
+    "url": "https://tld1.p.rapidapi.com/GetTlds",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-20T13:14:42.172Z",
+    "modified": "2022-11-20T13:16:19.628Z",
+    "headers": [
+      {
+        "name": "X-RapidAPI-Key",
+        "value": "2bd0a67b11msh806b3bf797619bap1d4a9cjsn231f72cf61ea"
+      },
+      {
+        "name": "X-RapidAPI-Host",
+        "value": "tld1.p.rapidapi.com",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d2508571-a09f-452f-88ae-935c14964b99",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://domain-checker7.p.rapidapi.com/whois?domain=rapidapi.com",
+    "url": "https://domain-checker7.p.rapidapi.com/whois?domain=rapidapi.com",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-20T13:22:01.165Z",
+    "modified": "2022-11-20T13:22:01.165Z",
+    "headers": [
+      {
+        "name": "X-RapidAPI-Key",
+        "value": "2bd0a67b11msh806b3bf797619bap1d4a9cjsn231f72cf61ea"
+      },
+      {
+        "name": "X-RapidAPI-Host",
+        "value": "tld1.p.rapidapi.com",
+        "isDisabled": true
+      }
+    ],
+    "params": [
+      {
+        "name": "domain",
+        "value": "rapidapi.com",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]
