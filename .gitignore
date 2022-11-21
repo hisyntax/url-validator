@@ -16,3 +16,5 @@
 
 thunder-tests
 .env
+
+main.go
