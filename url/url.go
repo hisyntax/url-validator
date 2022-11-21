@@ -37,32 +37,21 @@ func ValidateURL(url string) error {
 	}
 	//loop through to get a match with the url provided
 	for _, v := range arr {
-		tld := "." + v
-		if strings.Contains(url, tld) {
-			for i, value := range url {
-				prev := i - 1
-				fmt.Printf("This is the previous index: %v\n", prev)
-				//compare the value tld with the url tld if same
-				if string(value) == "." {
-					for index, vv := range url {
-						if index == prev {
-							if string(vv) == "" {
-								return errors.New("invalid url")
-							} else {
-								// send a request to the url provided to confirm if valid or not
-								valid, _, err := request.NewRequest("GET", url, "")
-								if err != nil {
-									return errors.New("request url invalid")
-								}
-								fmt.Printf("This is the request url response: %v\n", string(valid))
-								// return response
+		tld1 := fmt.Sprintf(" .%s", v)
+		tld2 := fmt.Sprintf(".%s", v)
+		if strings.Contains(url, tld1) {
+			return errors.New("invalid url")
 
-								return nil
-							}
-						}
-					}
-				}
+		} else if strings.Contains(url, tld2) {
+			// send a request to the url provided to confirm if valid or not
+			valid, _, err := request.NewRequest("GET", url, "")
+			if err != nil {
+				return errors.New("request url invalid")
 			}
+			fmt.Printf("This is the request url response: %v\n", string(valid))
+			// return response
+
+			return nil
 		}
 	}
 	return nil
