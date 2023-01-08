@@ -13,6 +13,7 @@ func NewRequest(method, url, token string) ([]byte, int, error) {
 		return nil, 0, reqErr
 	}
 
+	//this is the man of the day
 	if token != "" {
 		req.Header.Add("X-RapidAPI-Key", token)
 		req.Header.Add("Content-Type", "application/json")

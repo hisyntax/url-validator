@@ -328,9 +328,8 @@ var Tlds = []TldObj{
 			{Tld: "irish", Type: "gTLD"}, {Tld: "is", Type: "ccTLD"},
 			{Tld: "island", Type: "handshake"}, {Tld: "ism", Type: "handshake"},
 			{Tld: "isthefuture", Type: "handshake"}, {Tld: "italy", Type: "handshake"},
-			{Tld: "house", Type: "gTLD"}, {Tld: "how", Type: "gTLD"},
-			{Tld: "hpp", Type: "handshake"}, {Tld: "hsu", Type: "handshake"},
-			{Tld: "hu.net", Type: "gTLD"}, {Tld: "hx", Type: "handshake"},
+			{Tld: "iuh", Type: "handshake"}, {Tld: "iurl", Type: "handshake"},
+			{Tld: "iw", Type: "handshake"}, {Tld: "ize", Type: "handshake"},
 		},
 	},
 }
