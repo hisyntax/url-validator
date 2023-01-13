@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hisyntax/domain/request"
+	"github.com/iqquee/domain/request"
 )
 
 var Token string

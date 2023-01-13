@@ -1,3 +1,3 @@
-module github.com/hisyntax/domain
+module github.com/iqquee/domain
 
 go 1.19
