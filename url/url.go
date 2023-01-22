@@ -10,7 +10,7 @@ import (
 )
 
 // The validateUrl() returns the request data-type (url or text) for a successful request and an error (if the url is invalid).
-func ValidateURL(url string) (string, error) {
+func Validate(url string) (string, error) {
 	//loop through to get a match with the url provided
 	for _, v := range tld.Tlds {
 		for _, i := range v.Tld {

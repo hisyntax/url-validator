@@ -59,7 +59,7 @@ func main() {
     
     //Example 1 - Valid URL
 	url := "https://google.com"
-	res, err := urlReq.ValidateURL(url)
+	res, err := urlReq.Validate(url)
 	if err != nil {
 		fmt.Printf("This is the error recieved: %v\n", err.Error())
 		return
@@ -70,7 +70,7 @@ func main() {
 
     //Example 2 - text
 	url := "hello"
-	res, err := urlReq.ValidateURL(url)
+	res, err := urlReq.Validate(url)
 	if err != nil {
 		fmt.Printf("This is the error recieved: %v\n", err.Error())
 		return
@@ -81,7 +81,7 @@ func main() {
 
     //Example 3 - inValid URL
 	url := "https://google .com"
-	res, err := urlReq.ValidateURL(url)
+	res, err := urlReq.Validate(url)
 	if err != nil {
 		fmt.Printf("This is the error recieved: %v", err.Error())
             //Error is inavlid url 
