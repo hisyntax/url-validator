@@ -11,16 +11,42 @@ type Tdl struct {
 }
 
 var Tlds = []TldObj{
-	{AlphaOrder: "a",
+	{AlphaOrder: "0",
 		Tld: []Tdl{
 			{Tld: "0db", Type: "handshake"}, {Tld: "0z", Type: "handshake"},
+		},
+	},
+	{AlphaOrder: "1",
+		Tld: []Tdl{
 			{Tld: "1", Type: "handshake"}, {Tld: "1d", Type: "handshake"},
-			{Tld: "1q", Type: "handshake"}, {Tld: "247", Type: "handshake"},
+			{Tld: "1q", Type: "handshake"},
+		},
+	},
+	{AlphaOrder: "2",
+		Tld: []Tdl{
+			{Tld: "247", Type: "handshake"},
+		},
+	},
+	{AlphaOrder: "3",
+		Tld: []Tdl{
 			{Tld: "35", Type: "handshake"}, {Tld: "3dom", Type: "handshake"},
+		},
+	},
+	{AlphaOrder: "4",
+		Tld: []Tdl{
 			{Tld: "49", Type: "handshake"}, {Tld: "4free", Type: "handshake"},
 			{Tld: "4k", Type: "handshake"}, {Tld: "4sale", Type: "handshake"},
-			{Tld: "4you", Type: "handshake"}, {Tld: "80proof", Type: "handshake"},
+			{Tld: "4you", Type: "handshake"},
+		},
+	},
+	{AlphaOrder: "8",
+		Tld: []Tdl{
+			{Tld: "80proof", Type: "handshake"},
 			{Tld: "8888", Type: "handshake"}, {Tld: "8s", Type: "handshake"},
+		},
+	},
+	{AlphaOrder: "a",
+		Tld: []Tdl{
 			{Tld: "abo", Type: "handshake"}, {Tld: "aboutme", Type: "handshake"},
 			{Tld: "aby", Type: "handshake"}, {Tld: "ac", Type: "ccTLD"},
 			{Tld: "aca", Type: "handshake"}, {Tld: "academy", Type: "gTLD"},
