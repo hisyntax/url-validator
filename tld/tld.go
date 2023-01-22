@@ -688,4 +688,14 @@ var Tlds = []TldObj{
 			{Tld: "yzx", Type: "handshake"},
 		},
 	},
+	{AlphaOrder: "z",
+		Tld: []Tdl{
+			{Tld: "za.com", Type: "gTLD"}, {Tld: "zc", Type: "handshake"},
+			{Tld: "zen", Type: "handshake"}, {Tld: "zh", Type: "handshake"},
+			{Tld: "zone", Type: "gTLD"}, {Tld: "zoy", Type: "handshake"},
+			{Tld: "zp", Type: "handshake"}, {Tld: "zs ", Type: "handshake"},
+			{Tld: "zug", Type: "handshake"}, {Tld: "zx", Type: "handshake"},
+			{Tld: "zy", Type: "handshake"},
+		},
+	},
 }
